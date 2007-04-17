@@ -20,10 +20,19 @@ License:        GPL
 Group:          Graphical desktop/GNOME
 Url:            http://code.google.com/p/affinity-search/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+
 BuildRequires:  gnome-common 
+BuildRequires:  gnome-desktop-devel 
+BuildRequires:  gnome-menus-devel 
+BuildRequires:  gnome-panel-devel 
+BuildRequires:  gtk-doc
+BuildRequires:  libgnomeui2-devel
 BuildRequires:  dbus-glib-devel
+BuildRequires;  librsvg2-devel
+
 BuildRequires:  libbeagle-devel
 BuildRequires:  libtracker-devel
+
 BuildRequires:  intltool
 BuildRequires:  desktop-file-utils
 
