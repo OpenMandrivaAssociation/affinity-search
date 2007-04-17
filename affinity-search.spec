@@ -28,7 +28,7 @@ BuildRequires:  gnome-panel-devel
 BuildRequires:  gtk-doc
 BuildRequires:  libgnomeui2-devel
 BuildRequires:  dbus-glib-devel
-BuildRequires;  librsvg2-devel
+BuildRequires:  librsvg2-devel
 
 BuildRequires:  libbeagle-devel
 BuildRequires:  libtracker-devel
