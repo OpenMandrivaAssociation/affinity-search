@@ -31,7 +31,7 @@ BuildRequires:  dbus-glib-devel
 BuildRequires:  librsvg2-devel
 
 BuildRequires:  libbeagle-devel
-BuildRequires:  libtracker-devel
+BuildRequires:  tracker-devel
 
 BuildRequires:  intltool
 BuildRequires:  desktop-file-utils
