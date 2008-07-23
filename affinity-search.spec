@@ -2,7 +2,7 @@
 %define version 0.1
 %define svn 43
 %if %svn
-%define release %mkrel 0.%svn.1
+%define release %mkrel 0.%svn.2
 %else
 %define release %mkrel 1
 %endif
@@ -16,7 +16,7 @@ Source:         %{name}-%{version}-%{svn}.tar.bz2
 %else
 Source:         %{name}-%{version}.tar.bz2
 %endif
-License:        GPL
+License:        GPLv3+
 Group:          Graphical desktop/GNOME
 Url:            http://code.google.com/p/affinity-search/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
