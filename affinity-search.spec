@@ -2,7 +2,7 @@
 %define version 0.1
 %define svn 43
 %if %svn
-%define release %mkrel 0.%svn.2
+%define release %mkrel 0.%svn.3
 %else
 %define release %mkrel 1
 %endif
@@ -16,6 +16,7 @@ Source:         %{name}-%{version}-%{svn}.tar.bz2
 %else
 Source:         %{name}-%{version}.tar.bz2
 %endif
+Patch:		affinity-search-0.1-fix-linking.patch
 License:        GPLv3+
 Group:          Graphical desktop/GNOME
 Url:            http://code.google.com/p/affinity-search/
@@ -43,6 +44,7 @@ by having various back-ends, but implemented through one standard interface.
 
 %prep
 %setup -q
+%patch -p1
 
 %build
 ./autogen.sh -V
