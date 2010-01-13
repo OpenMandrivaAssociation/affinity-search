@@ -2,7 +2,7 @@
 %define version 0.1
 %define svn 43
 %if %svn
-%define release %mkrel 0.%svn.5
+%define release %mkrel 0.%svn.6
 %else
 %define release %mkrel 1
 %endif
