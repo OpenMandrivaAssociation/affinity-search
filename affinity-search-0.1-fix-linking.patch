@@ -1,0 +1,12 @@
+diff -p -up affinity-search-0.1/configure.ac~ affinity-search-0.1/configure.ac
+--- affinity-search-0.1/configure.ac~	2007-04-16 01:40:58.000000000 +0200
++++ affinity-search-0.1/configure.ac	2008-11-06 09:21:48.000000000 +0100
+@@ -13,7 +13,7 @@ AC_ISC_POSIX
+ AC_PROG_CC
+ AC_STDC_HEADERS
+ 
+-PKG_CHECK_MODULES(DEPS, gnome-vfs-2.0 gtk+-2.0 libgnome-2.0 gnome-vfs-2.0 gconf-2.0 x11 xproto gnome-desktop-2.0 )
++PKG_CHECK_MODULES(DEPS, gnome-vfs-2.0 gtk+-2.0 libgnomeui-2.0 gnome-vfs-2.0 gconf-2.0 x11 xproto gnome-desktop-2.0 )
+ AC_SUBST(DEPS_CFLAGS)
+ AC_SUBST(DEPS_LIBS)
+ 
