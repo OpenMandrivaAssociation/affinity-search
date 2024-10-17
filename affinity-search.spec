@@ -19,7 +19,7 @@ Source:         %{name}-%{version}.tar.bz2
 Patch:		affinity-search-0.1-fix-linking.patch
 License:        GPLv3+
 Group:          Graphical desktop/GNOME
-Url:            http://code.google.com/p/affinity-search/
+Url:            https://code.google.com/p/affinity-search/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 BuildRequires:  gnome-common 
