@@ -22,6 +22,11 @@ Group:          Graphical desktop/GNOME
 Url:            https://code.google.com/p/affinity-search/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  gnome-common 
 BuildRequires:  gnome-desktop-devel 
 BuildRequires:  gnome-menus-devel 
